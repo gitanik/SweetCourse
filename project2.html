@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="project2.css">
+<script src="https://use.fontawesome.com/d55173a2a7.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title></title>
+</head>
+<body onload="timer()">
+	<div class="header-wrapper">
+		<div id="header" class="container">
+		<i class="fa fa-bars hamburger" aria-hidden="true"></i>
+			<ul>
+				<li><a class="active" href="#">homepage</a></li>
+				<li><a href="#">our clients</a></li>
+				<li><a href="#">about us</a></li>
+				<li><a href="#">careers</a></li>
+				<li><a href="#">contact us</a></li>
+			</ul>
+			<span class="arrow"></span>
+			<div class="logo">
+				<h1><a href="#">SweetCourse</a></h1>
+				<p>DESIGN BY <a href="#"><b>TEMPLATED</b></a></p>
+			</div>
+		</div>
+	</div>
+	<div class="welcome-wrapper">
+		<div id="welcome" class="container">
+			<h2>Welcome to our website</h2>
+			<p class="subtitle">MAURIS VULPUTATE DOLOR SIT AMET NIBH</p>
+			<p class="info">This is <strong>SweetCourse</strong>, a free, fully standards-compliant CSS template designed by <a href="#">TEMPLATED</a>. The photos in this template are from <a href="#">Fotogrph</a>. This free template is released under the <a href="#">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)</p>
+		</div>
+	</div>
+	<div class="article-wrapper container">
+		<div class="article">
+			<span>SEPTEMBER 19, 2013</span>
+			<img src="https://templated.co/items/demos/sweetcourse/images/img01.jpg" width="650px">
+			<h3>ETIAM MALESUADA RUTRUM ENIM</h3>
+			<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
+		</div>
+		<div class="article">
+			<span>SEPTEMBER 17, 2013</span>
+			<img src="https://templated.co/items/demos/sweetcourse/images/img02.jpg" width="650px">
+			<h3>ETIAM MALESUADA RUTRUM ENIM</h3>
+			<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
+		</div>
+		<div class="article last-article">
+			<span>SEPTEMBER 17, 2013</span>
+			<img src="https://templated.co/items/demos/sweetcourse/images/img03.jpg" width="650px">
+			<h3>ETIAM MALESUADA RUTRUM ENIM</h3>
+			<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
+		</div>
+		<div class="sidebar">
+			<div class="posts">
+				<h3 class="post1">AMET SED VOLUTPAT MAURIS</h3>
+				<p><a href="#">In posuere eleifend odio. Quisque semper augue. Pellentesque viverra vulputate enim.</a></p>
+			</div>
+			<div class="posts">
+				<h3>SAGITTIS DIAM DOLOR SIT AMET</h3>
+				<p><a href="#">In posuere eleifend odio. Quisque semper augue. Pellentesque viverra vulputate enim.</a></p>
+			</div>
+			<div class="posts">
+				<h3>MAECENAS LUCTUS LECTUS</h3>
+				<p><a href="#">In posuere eleifend odio. Quisque semper augue. Pellentesque viverra vulputate enim.</a></p>
+			</div>
+			<div class="posts">
+				<h3>FUSCE ULTRICES FRINGILLA</h3>
+				<p><a href="#">In posuere eleifend odio. Quisque semper augue. Pellentesque viverra vulputate enim.</a></p>
+			</div>
+			<div class="posts bottom-posts">
+				<h3>POSUERE AUGUE AMET</h3>
+				<p><a href="#">Semper mod quis eget mi dolore</a></p>
+				<p><a href="#">Quam turpis feugiat sit dolor</a></p>
+				<p><a href="#">Amet ornare in hendrerit in lectus</a></p>
+				<p><a href="#">Consequat etiam lorem phasellus</a></p>
+				<p><a href="#">Amet turpis, feugiat et sit amet</a></p>
+				<p><a href="#">Amet ornare in hendrerit in lectus</a></p>
+			</div><div class="posts bottom-posts">
+				<h3>POSUERE AUGUE AMET</h3>
+				<p><a href="#">Semper mod quis eget mi dolore</a></p>
+				<p><a href="#">Quam turpis feugiat sit dolor</a></p>
+				<p><a href="#">Amet ornare in hendrerit in lectus</a></p>
+				<p><a href="#">Consequat etiam lorem phasellus</a></p>
+				<p><a href="#">Amet turpis, feugiat et sit amet</a></p>
+				<p><a href="#">Amet ornare in hendrerit in lectus</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="newsletter-wrapper">
+		<div class="newsletter container">
+			<h2>Newsletter Signup</h2>
+			<span>INTEGER SIT AMET PEDE VEL ARCU ALIQUET PRETIUM<span>
+			<div class="contact">
+				<form action="#">
+				  <input type="text" name="name" value="Name">
+				  <input type="text" name="email" value="Email">
+				  <textarea  name="comment">Message</textarea>
+				  <input onclick="print_current_page()" type="submit" value="SEND MESSAGE"> 
+			</form>
+		</div>
+		<p id="demo"></p>
+		<p id="demo1"></p>
+	</div>
+	<footer>
+	<div class="copyright container">
+	<p>&copy; UNTITLED. ALL RIGHTS RESERVED. | PHOTOS BY <a href="#">FOTOGRPH</a> | DESIGN BY <a href="#">TEMPLATED</a>.</p>
+	</div>
+	
+	</footer>
+</body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="project2.js"></script>
+</html>
